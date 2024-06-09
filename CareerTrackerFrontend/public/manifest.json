@@ -1,0 +1,11 @@
+{
+    "name": "CareerTracker",
+    "short_name": "CareerTracker",
+    "author": "Sufian Adnan",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "description": "This is a project that can keep track and update your Workday Job Applications with a few clicks"
+  }
+  

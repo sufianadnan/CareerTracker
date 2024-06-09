@@ -1,0 +1,27 @@
+services:
+  backend:
+    build:
+      context: ./CareerTrackerBackend
+      dockerfile: Dockerfile
+    ports:
+      - '5000:5000'
+    environment:
+      - DATABASE=/app/Database/database.db
+    container_name: CareerTrackerBackend
+    volumes:
+      - ./Database:/app/Database
+
+  frontend:
+    build:
+      context: ./CareerTrackerFrontend
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    depends_on:
+      - backend
+    container_name: CareerTrackerFrontend
+    volumes:
+      - ./Database:/app/Database
+
+volumes:
+  database:
