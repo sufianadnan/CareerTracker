@@ -14,7 +14,7 @@
     "@syncfusion/ej2-react-popups": "^19.4.52",
     "@syncfusion/ej2-react-richtexteditor": "^19.4.50",
     "@syncfusion/ej2-react-schedule": "^19.4.50",
-    "axios": "^1.6.8",
+    "axios": "^1.7.4",
     "concurrently": "^8.2.2",
     "react": "^17.0.2",
     "react-chartjs-2": "^5.2.0",
